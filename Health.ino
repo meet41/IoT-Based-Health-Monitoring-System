@@ -17,17 +17,12 @@ DHT dht(DHT_PIN, DHT_TYPE);
 #define HEART_RATE_PIN D4
 
 // Adafruit IO credentials
-#define IO_USERNAME "meet1"
-#define IO_KEY "aio_rUya88bq9brJ3vwrmfP3HOpFyCYD"
 
 // Wi-Fi credentials
 #define WIFI_SSID "your_SSID"
 #define WIFI_PASS "your_PASSWORD"
 
-// Firebase credentials
-#define FIREBASE_HOST "https://health-monitor-37315-default-rtdb.firebaseio.com/"
-const char* FIREBASE_AUTH = "x1pLGEim7Xvs4yWAUeMkmLnxNwTyxHO3CV9oTynq";
-
+// Your Firebase credentials
 // Initialize Firebase and Adafruit IO
 FirebaseData firebaseData;
 FirebaseConfig firebaseConfig;
